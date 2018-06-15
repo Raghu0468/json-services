@@ -1,0 +1,317 @@
+[
+    {
+        "Box1": {
+            "label": "Basic Package",
+            "lab": "$5",
+            "h1": "month",
+            "hh1": "BUY",
+			
+            "Contents": [
+                {
+                    "data": "10 GB Disk Space"
+                },
+                {
+                    "data": "200 GB Bandwidth"
+                },
+                {
+                    "data": "100 Email Accounts"
+                },
+                {
+                    "data": "10 MySQL Databases"
+                },
+                {
+                    "data": "$10 Ad Credit"
+                },
+                {
+                    "data": "Free Domain"
+                }
+            ]
+        }
+    },
+    {
+        "Box2": {
+            "label": "Starter Package",
+			"lab2": "$10",
+            "h2": "month",
+            "hh2": "BUY",
+			
+            "Contents": [
+                {
+                    "data": "50 GB Disk Space "
+                },
+                {
+                    "data": "1 TB Bandwidth"
+                },
+                {
+                    "data": "1000 Email Accounts"
+                },
+                {
+                    "data": "100 MySQL Databases"
+                },
+                {
+                    "data": "$25 Ad Credit"
+                },
+                {
+                    "data": "Free Domain"
+                }
+            ]
+        }
+    },
+    {
+        "Box3": {
+            "label": "Business Package",
+			"lab3": "$15",
+            "h3": "month",
+            "hh3": "BUY",
+            "Contents": [
+                {
+                    "data": "200 GB Disk Space"
+                },
+                {
+                    "data": "Unlimited Bandwidth"
+                },
+                {
+                    "data": "1000 Email Accounts"
+                },
+                {
+                    "data": "200 MySQL Databases"
+                },
+                {
+                    "data": "$25 Ad Credit"
+                },
+                {
+                    "data": "Free Domain"
+                }
+            ]
+        }
+    },
+    {
+        "Box4": {
+            "label": "Ultimate Package",
+			"lab4": "$25",
+            "h4": "month",
+            "hh4": "BUY",
+            "Contents": [
+                {
+                    "data": "Unlimited Space"
+                },
+                {
+                    "data": "Unlimited Bandwidth"
+                },
+                {
+                    "data": "Unlimited Email Accounts"
+                },
+                {
+                    "data": "Unlimited MySQL Databases"
+                },
+                {
+                    "data": "$50 Ad Credit"
+                },
+                {
+                    "data": "2 Free Domain"
+                }
+            ]
+        }
+    },
+    {
+        "Box5": {
+            "label": "Basic",
+			"lab5": "$5",
+            "h5": "month",
+			"hh5": "BuY",
+            "Contents": [
+                {
+				"label":"2",
+                    "data": "10 GB"
+                },
+                {
+				"label":"2",
+                    "data": "200 GB"
+                },
+                {
+				"label":"2",
+                    "data": "100"
+                },
+                {
+				"label":"2",
+                    "data": "10"
+                },
+                {
+				 "label":"2",
+                    "data": "$10"
+                },
+				 {
+				    "label":"0",
+                    "data": "1"
+                }
+				
+				
+                
+            ]
+        }
+    },
+    {
+        "Box6": {
+            "label": "Starter",
+			"lab6": "$10",
+            "h6": "month",
+			"hh6": "BUY",
+            "Contents": [
+                {
+				"label":"2",
+                    "data": "50 GB"
+                },
+                {
+				"label":"2",
+                    "data": "1 TB"
+                },
+                {
+				"label":"2",
+                    "data": "1000"
+                },
+                {
+				"label":"2",
+                    "data": "100"
+                },
+                {
+				 "label":"2",
+                    "data": "$10"
+                },
+				{
+				    "label":"1",
+                    "data": "1"
+                }
+            ]
+        }
+    },
+    {
+        "Box7": {
+            "label": "Business",
+			"lab7": "$15",
+            "h7": "month",
+			"hh7": "BUY",
+            "Contents": [
+                {
+				"label":"2",
+                    "data": "200 GB"
+                },
+                {
+				"label":"2",
+                    "data": "Unlimited"
+                },
+                {
+				"label":"2",
+                    "data": "1000"
+                },
+                {
+				"label":"2",
+                    "data": "200"
+                },
+                {
+				 "label":"2",
+                    "data": "$25"
+                },
+				 {
+				    "label":"1",
+                    "data": "1"
+                }
+            ]
+        }
+    },
+    {
+        "Box8": {
+            "label": "Unlimited",
+			"lab8": "$25",
+            "h8": "month",
+			"hh8": "BUY",
+            "Contents": [
+                {
+				"label":"2",
+                    "data": "Unlimited"
+                },
+                {
+				"label":"2",
+                    "data": "Unlimited"
+                },
+                {
+				"label":"2",
+                    "data": "Unlimited"
+                },
+                {
+				"label":"2",
+                    "data": "Unlimited"
+                },
+                {
+				 "label":"2",
+                    "data": "$50"
+                },
+				 {
+				    "label":"1",
+                    "data": "2"
+                }
+            ]
+        }
+    },
+    {
+        "Box9": {
+            "label": "Extreme",
+			"lab9": "$30",
+            "h9": "month",
+			"hh9": "BUY",
+            "Contents": [
+                {
+				"label":"2",
+                    "data": "Unlimited"
+                },
+                {
+				"label":"2",
+                    "data": "Unlimited"
+                },
+                {
+				"label":"2",
+                    "data": "Unlimited"
+                },
+                {
+				"label":"2",
+                    "data": "Unlimited"
+                },
+                {
+				 "label":"2",
+                    "data": "$100"
+                },
+				 {
+				    "label":"1",
+                    "data": "3"
+                }
+            ]
+        }
+    },
+    {
+        "Box00": {
+		
+            "lael": "Small Style",
+            "label": "Package Name",
+            "Contents": [
+                {
+                    "data": "Disk Space"
+                },
+				{
+                    "data": "Email Accounts"
+                },
+				{
+                    "data": "Bandwidth"
+                },
+				{
+                    "data": "MySQL Databases"
+                },
+				{
+                    "data": "Ad Credit"
+                },
+				{
+                    "data": "Ad Credit"
+                }
+				
+            ]
+        }
+    }
+]

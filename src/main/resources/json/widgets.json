@@ -1,0 +1,205 @@
+[
+    {
+        "Box1": 
+            {
+                 "label": "Default Widgets Box",
+				 
+				 "Contents":
+		[{
+		"data": "Nunc aliquam enim ut arcu aliquet adipiscing. Fusce dignissim volutpat justo non consectetur. Nulla fringilla eleifend consectetur.",
+		"color": "success"
+		},
+	{
+		"data": "Raw denim you probably haven't heard of them jean shorts Austin.",
+		"color": "info"
+	}]
+            }
+           
+        
+    },
+	
+	{
+        "Box2": 
+            {
+                 "label": "Tables & Colors",
+				 
+				 "data":[
+				               {
+								"name": "Alex",
+								"email": "alex@email.com",
+								"status": "pending"
+						       },
+							   {
+									"name": "Fred",
+									"email": "fred@email.com",
+									"status": "approved"
+								},
+								{
+									"name": "Jack",
+									"email": "jack@email.com",
+									"status": "pending"
+								},
+								{
+									"name": "John",
+									"email": "john@email.com",
+									"status": "blocked"
+								},
+								{
+									"name": "James",
+									"email": "james@email.com",
+									"status": "online"
+								}
+						]
+            }
+           
+        
+    },
+	
+	
+    
+    {
+        "Box3": 
+            {
+                "label": "Small Header & Collapsed"
+            }
+        
+    },
+
+    {
+        "Box4": 
+            {
+                "label": "Big Header",
+				
+                "Contents":
+			[{	
+			"data":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis."
+			}]				
+            }
+        
+    },
+
+    {
+        "Box5": 
+            {
+                "label": "with label",
+                "Progress": 
+				[{
+				"data":"16%"
+			}],
+				
+                "Contents":
+			[{
+				"data":"Hello World!"
+			}]
+            }
+        
+    },
+	
+	{
+        "Box6": 
+            {
+                "label": "With Badge",
+                "Warnings": 
+				[{
+				"data":"Alert%"
+			}],
+				
+                "Contents":
+			[{
+				"data":"HELLO WORLD"
+			}]
+            }
+        
+    },
+	
+
+	
+	
+	
+    {
+        "Box7": 
+            {
+                "label": "With Labels & Badge",
+                "progress":"1.2%",
+					
+				"Contents":
+			[{
+				"data":"Lorem ipsum dolor sit amet, consectetur adipiscing."
+			}]				
+               
+            }
+        
+    },
+    {
+        "Box8": 
+            {
+                "label": "With Toolbox",
+                "progress":"80",	
+           				
+                "lines": "vertical",
+				"Contents":
+			[{
+				"data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis. Nullam interdum massa vel nisl fringilla sed viverra erat tincidunt. Phasellus in ipsum velit. Maecenas id erat vel sem convallis blandit. Nunc aliquam enim ut arcu aliquet adipiscing. Fusce dignissim volutpat justo non consectetur. Nulla fringilla eleifend consectetur. Etiam justo nisl, gravida id egestas eu, eleifend vel metus. Pellentesque tellus ipsum, euismod in facilisis quis, aliquet quis sem."
+			}]		
+           
+            }
+        
+    },
+    {
+        "Box9": 
+            {
+                "label": "Bottom Toolbox (Footer)",
+                "Arrow": "Prev",
+                "Arrows": "Next",
+				"Contents":
+			[{
+				"data": "Nunc aliquam enim ut arcu aliquet adipiscing. Fusce dignissim volutpat justo non consectetur. Nulla fringilla eleifend consectetur."
+			},
+			{
+				"data": "Raw denim you probably haven't heard of them jean shorts Austin."
+			}],		
+                "Button1": "I don't accept",
+                "Button2": "I accept"
+            }
+        
+    },
+	
+	
+	{
+        "Box10": 
+            {
+                "label": "tabb)"
+               
+            }
+        
+    },
+	
+	
+
+	{
+        "Box11": 
+            {
+                "label": "Trannsparent Box",
+				"Contents":
+				[{
+					"data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis. Nullam int."
+				}]
+                
+            }
+        
+    },
+	
+	
+	{
+        "Tabswithscorll": 
+            {
+                 "label": "Default Widgets Box",
+                 "home": "home dta",
+                 "profile": "profile data",
+                 "info": "info data"
+				
+            }
+           
+        
+    }
+]

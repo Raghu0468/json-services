@@ -1,0 +1,54 @@
+[
+    {
+        "Events": {
+            "label": "Full Calendar",
+            "data": " with draggable and editable events",
+            
+			"eInfo": [
+                {
+                    "color1": "external-event label-grey",
+                    "label1": "label-grey",
+                    "icon1": "ace-icon fa fa-arrows",
+                    "name1": "My Event 1"
+                },
+                {
+                    "color2": "external-event label-success",
+                    "label2": "label-success",
+                    "icon2": "ace-icon fa fa-arrows",
+                    "name2": "My Event 2"
+                },
+                {
+                    "color3": "external-event label-danger",
+                    "label3": "label-danger",
+                    "icon3": "ace-icon fa fa-arrows",
+                    "name3": "My Event 3"
+                },
+                {
+                    "color4": "external-event label-purple",
+                    "label4": "label-purple",
+                    "icon4": "ace-icon fa fa-arrows",
+                    "name4": "My Event 4"
+                },
+                {
+                    "color5": "external-event label-yellow",
+                    "label5": "label-yellow",
+                    "icon5": "ace-icon fa fa-arrows",
+                    "name5": "My Event 5"
+                },
+                {
+                    "color6": "external-event label-pink",
+                    "label6": "label-pink",
+                    "icon6": "ace-icon fa fa-arrows",
+                    "name6": "My Event 6"
+                },
+                {
+                    "color7": "external-event label-info",
+                    "label7": "label-info",
+                    "icon7": "ace-icon fa fa-arrows",
+                    "name7": "My Event 7"
+                }
+            ]
+        }
+    }
+]
+

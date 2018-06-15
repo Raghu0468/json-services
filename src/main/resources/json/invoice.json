@@ -1,0 +1,121 @@
+[
+    {
+        "Box": {
+            "label1": "Customer Invoice",
+            "icon": "ace-icon fa fa-print",
+			"iconic": "ace-icon fa fa-leaf green",
+            "label2": "Invoice:",
+            "invoiceid": "#121212",
+            "label3": "Date:",
+            "date": "04/04/2014",
+            "CInfo": [
+                {
+                    "icons": "col-xs-11 label label-lg label-info arrowed-in arrowed-right",
+                    "name": "Company Info",
+                    "loopdata": [
+                        {
+                            "icon": "ace-icon fa fa-caret-right blue",
+                            "name": "Street, City"
+                        },
+                        {
+                            "icon": "ace-icon fa fa-caret-right blue",
+                            "name": "Zip Code"
+                        },
+                        {
+                            "icon": "ace-icon fa fa-caret-right blue",
+                            "name": "State, Country"
+                        },
+                        {
+                            "icon": "ace-icon fa fa-caret-right blue",
+                            "name": "111-111-111"
+                        },
+                        {
+                            "icon": "ace-icon fa fa-caret-right blue",
+                            "name": "Payment Info"
+                        }
+                    ]
+                }
+            ],
+            "PInfo": [
+                {
+                    "icon": "col-xs-11 label label-lg label-success arrowed-in arrowed-right",
+                    "name1": "Customer Info",
+                    "loopdata1": [
+                        {
+                            "icon1": "ace-icon fa fa-caret-right green",
+                            "name1": "Street, City"
+                        },
+                        {
+                            "icon1": "ace-icon fa fa-caret-right green",
+                            "name1": "Zip Code"
+                        },
+                        {
+                            "icon1": "ace-icon fa fa-caret-right green",
+                            "name1": "State, Country"
+                        },
+                        {
+                            "icon1": "ace-icon fa fa-caret-right green",
+                            "name1": "Contact Info"
+                        }
+                    ]
+                }
+            ],
+            "tableHead": [
+                {
+                    "head": "#"
+                },
+                {
+                    "head": "Product"
+                },
+                {
+                    "head": "Description"
+                },
+                {
+                    "head": "Discount"
+                },
+                {
+                    "head": "Total"
+                }
+            ],
+            "tableInData": [
+                {
+                    "id": "1",
+                    "Product": "Google.com",
+                    "Description": "1 year domain registration",
+                    "Discount": "---",
+                    "Total": "$10"
+                },
+                {
+                    "id": "2",
+                    "Product": "Yahoo.com",
+                    "Description": "5 year domain registration",
+                    "Discount": "5%",
+                    "Total": "$45"
+                },
+                {
+                    "id": "3",
+                    "Product": "Hosting",
+                    "Description": "1 year basic hosting",
+                    "Discount": "10%",
+                    "Total": "$90"
+                },
+                {
+                    "id": "4",
+                    "Product": "Design",
+                    "Description": "Theme customization",
+                    "Discount": "50%",
+                    "Total": "$250"
+                }
+            ],
+            "extra": [
+                {
+                    "Amount": "Total amount :",
+                    "dollars": "$395",
+					"color": "red",
+                    "duplicate": "Extra Information",
+                    "content": "Thank you for choosing Ace Company products. We believe you will be satisfied by our services."
+                }
+            ]
+        }
+    }
+]

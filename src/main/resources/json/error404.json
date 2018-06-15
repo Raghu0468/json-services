@@ -1,0 +1,49 @@
+[
+    {
+        "Box": {
+            "label": "Error 404",
+            "header": [
+                {
+                    "icon": "fa fa-sitemap",
+                    "code": "405",
+                    "msg": "Page Not Found"
+                }
+            ],
+            "paragraph": "We looked everywhere but we couldn't find it!",
+            "fields": [
+                {
+                    "icon": "ace-icon fa fa-search",
+                    "placeholder": "Give it a search...",
+                    "btnName": "Go!"
+                }
+            ],
+            "sub_head": "Try one of the following:",
+            "sub_head_loop": [
+                {
+                    "icon": "ace-icon fa fa-hand-o-right blue",
+                    "name": "Re-check the url for typos"
+                },
+                {
+                    "icon": "ace-icon fa fa-hand-o-right blue",
+                    "name": "Read the faq"
+                },
+                {
+                    "icon": "ace-icon fa fa-hand-o-right blue",
+                    "name": "Tell us about it"
+                }
+            ],
+            "btn1": [
+                {
+                    "icon": "fa fa-arrow-left",
+                    "btnName": "Go Back"
+                }
+            ],
+            "btn2": [
+                {
+                    "icon": "fa fa-tachometer",
+                    "btnName": "Dashboard"
+                }
+            ]
+        }
+    }
+]

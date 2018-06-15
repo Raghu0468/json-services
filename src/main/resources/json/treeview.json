@@ -1,0 +1,19 @@
+[
+    {
+        "Box": {
+            "label": "Treeview",
+            "data": [
+                {
+                    "Name": "car",
+                    "status": "expiring",
+                    "selected": false
+                },
+                {
+                    "Name": "car",
+                    "status": "registered",
+                    "selected": true
+                }
+           ]
+        }
+    }
+]

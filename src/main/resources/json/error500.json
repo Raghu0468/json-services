@@ -1,0 +1,44 @@
+[
+    {
+        "Box": {
+            "label": "Error 404",
+            "header": [
+                {
+                    "icon": "fa fa-random",
+                    "code": "500",
+                    "msg": "Something Went Wrong"
+                }
+            ],
+            "paragraph": "But we are working",
+            "fields": [
+                {
+                    "icon": "ace-icon fa fa-wrench icon-animated-wrench bigger-125",
+                    "name": "on it!"
+                }
+            ],
+            "sub_head": "Meanwhile, try one of the following:",
+            "sub_head_loop": [
+                {
+                    "icon": "ace-icon fa fa-hand-o-right blue",
+                    "name": "Read the faq"
+                },
+                {
+                    "icon": "ace-icon fa fa-hand-o-right blue",
+                    "name": "Give us more info on how this specific error occurred!"
+                }
+            ],
+            "btn1": [
+                {
+                    "icon": "fa fa-arrow-left",
+                    "btnName": "Go Back"
+                }
+            ],
+            "btn2": [
+                {
+                    "icon": "fa fa-tachometer",
+                    "btnName": "Dashboard"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "boxes": [
+      {
+        "color": "green",
+        "icon": "fa fa-comments",
+        "number": "565",
+        "content": "comments + 2 reviews",
+        "stat-success": "8%"
+      },
+      {
+        "color": "blue",
+        "icon": "fa fa-twitter",
+        "number": "123",
+        "content": "new followers",
+        "badge-success": "+32%"
+      },
+      {
+        "color": "pink",
+        "icon": "fa fa-shopping-cart",
+        "number": "8",
+        "content": "new orders",
+        "stat-important": "4%"
+      },
+      {
+        "color": "red",
+        "icon": "fa fa-flask",
+        "number": "7",
+        "content": "experiments"
+      },
+      {
+        "id": "page-views",
+        "color": "orange2",
+        "chart": "[196,128,202,177,154,94,100,170,224]",
+        "number": "6,251",
+        "content": "pageviews",
+        "badge-success": "7.2%"
+      },
+      {
+        "id": "traffic-used",
+        "color": "blue2",
+        "progress": "42",
+        "text": "traffic used",
+        "content": "58GB remaining"
+      }
+    ]
+  },
+  {
+    "Completion": [
+      {
+        "id": "task-completion",
+        "color": "green",
+        "small": true,
+        "dark": true,
+        "progress": "61",
+        "content": "Task Completion"
+      },
+      {
+        "id": "earnings",
+        "color": "blue",
+        "small": true,
+        "dark": true,
+        "chart": "[3,4,2,3,4,4,2,2]",
+        "content": [
+          "Earnings",
+          "$32,000"
+        ]
+      },
+      {
+        "color": "grey",
+        "small": true,
+        "dark": true,
+        "icon": "fa fa-download",
+        "content": [
+          "Downloads",
+          "1,205"
+        ]
+      }
+    ]
+  },
+  {
+    "domains": [
+      {
+        "name": "internet.com",
+        "price": "$19.99",
+        "old_price": "$29.99",
+        "status": "on_sale"
+      },
+      {
+        "name": "online.com",
+        "price": "$16.45",
+        "old_price": "",
+        "status": "approved"
+      },
+      {
+        "name": "newnet.com",
+        "price": "$15.00",
+        "old_price": "",
+        "status": "pending"
+      },
+      {
+        "name": "web.com",
+        "price": "$19.95",
+        "old_price": "$24.99",
+        "status": "out_of_stock"
+      },
+      {
+        "name": "domain.com",
+        "price": "$12.00",
+        "old_price": "",
+        "status": "sold"
+      }
+    ]
+  },
+  {
+    "tasks": [
+      {
+        "id": "customer-support",
+        "color": "orange",
+        "title": "Answering customer questions",
+        "progress": 42
+      },
+      {
+        "color": "red",
+        "title": "Fixing bugs",
+        "toolbar": true
+      },
+      {
+        "color": "default",
+        "title": "Adding new features",
+        "menu": true
+      },
+      {
+        "color": "blue",
+        "title": "Upgrading scripts used in template"
+      },
+      {
+        "color": "grey",
+        "title": "Adding new skins"
+      },
+      {
+        "color": "green",
+        "title": "Updating server software up"
+      },
+      {
+        "color": "pink",
+        "title": "Cleaning up"
+      }
+    ]
+  },
+  {
+    "members": [
+      {
+        "name": "Bob Doe",
+        "avatar": "user.jpg",
+        "time": "20 min",
+        "status": "pending"
+      },
+      {
+        "name": "Joe Doe",
+        "avatar": "avatar2.png",
+        "time": "1 hour",
+        "status": "pending"
+      },
+      {
+        "name": "Jim Doe",
+        "avatar": "avatar.png",
+        "time": "2 hour",
+        "status": "pending"
+      },
+      {
+        "name": "Alex Doe",
+        "avatar": "avatar5.png",
+        "time": "3 hour",
+        "status": "blocked"
+      },
+      {
+        "name": "Bob Doe",
+        "avatar": "avatar2.png",
+        "time": "6 hour",
+        "status": "approved"
+      },
+      {
+        "name": "Susan",
+        "avatar": "avatar3.png",
+        "time": "yesterday",
+        "status": "approved"
+      },
+      {
+        "name": "Phil Doe",
+        "avatar": "avatar4.png",
+        "time": "2 days ago",
+        "status": "online"
+      },
+      {
+        "name": "Alexa Doe",
+        "avatar": "avatar1.png",
+        "time": "3 days ago",
+        "status": "approved"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "name": "Bob Doe",
+        "avatar": "avatar.png",
+        "time": "6 min",
+        "time-color": "green",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis",
+        "menu": true
+      },
+      {
+        "name": "Jennifer",
+        "avatar": "avatar1.png",
+        "time": "15 min",
+        "time-color": "blue",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis"
+      },
+      {
+        "name": "Joe",
+        "avatar": "avatar2.png",
+        "time": "22 min",
+        "time-color": "orange",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis"
+      },
+      {
+        "name": "Rita",
+        "avatar": "avatar3.png",
+        "time": "50 min",
+        "time-color": "red",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis"
+      }
+    ]
+  },
+  {
+    "conversation": [
+      {
+        "name": "AK",
+        "avatar": "user.jpg",
+        "time": "4 sec",
+        "time-color": "green",
+        "message": "I will carve in the History."
+      },
+      {
+        "name": "John",
+        "avatar": "avatar.png",
+        "time": "38 sec",
+        "time-color": "blue",
+        "message": "What ?"
+      },
+      {
+        "name": "AK",
+        "avatar": "user.jpg",
+        "admin": true,
+        "time": "2 min",
+        "time-color": "orange",
+        "message": "That I am the greatest the world has ever Seen."
+      },
+      {
+        "name": "Jim",
+        "avatar": "avatar4.png",
+        "time": "3 min",
+        "time-color": "grey",
+        "message": "You mean, AK the Greatest."
+      },
+      {
+        "name": "AK",
+        "avatar": "user.jpg",
+        "time": "4 min",
+        "time-color": "green",
+        "message": "Yea ! AK the Great !"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "Box1": {
+            "label": "Email Templates",
+            "label1": " along with an email converter tool",
+			"Contents":[
+				               {
+								"data": "images/email1.png",
+								"thumbnail"	:"build/demo/email-confirmation.html" 															
+
+						       },
+							   {
+								"data": "images/email2.png",
+								"thumbnail"	:"build/demo/email-navbar.html"																
+						       },
+							   {
+								"data": "images/email3.png",
+								"thumbnail"	:"build/demo/email-newsletter.html"																
+						       },
+							   {
+								"data": "images/email4.png",
+								"thumbnail"	:"build/demo/email-contrast.html"																
+						       }
+					]			   
+                
+
+        }
+    }
+]

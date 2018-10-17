@@ -1,21 +1,34 @@
 package com.json.service.calendar;
 
+import com.mvc.AppConfig;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-import org.springframework.core.io.ClassPathResource;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import java.io.FileReader;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 @Controller
+@CrossOrigin
 @RequestMapping("/")
 public class CalendarController {
+
+   @Autowired
+   ResourceLoader resourceLoader;
+
+
+   @Autowired
+   AppConfig config;
 
 
    @RequestMapping(value = "calendar", produces = "application/json")
@@ -23,9 +36,24 @@ public class CalendarController {
    Object[] getCalendarList(HttpServletRequest request) {
 
       try {
-         ClassPathResource classPathResource = new ClassPathResource("json" + "\\calendar.json");
          JSONParser parser = new JSONParser();
-         JSONArray a = (JSONArray) parser.parse(new FileReader(classPathResource.getFile()));
+         /*
+               If you want to read file from resources json folder use the following code
+          */
+         Resource resource = resourceLoader.getResource("classpath:json/calendar.json");
+         Scanner s = new Scanner(resource.getInputStream()).useDelimiter("D:\\Project\\json services\\src\\main\\resources\\json\\calendar.json");
+
+         /*
+            If you want to use absolute path for the JSON files, use the below code
+          */
+         File file = new File(config.getPath());
+         Scanner scan = new Scanner(file);
+         scan.useDelimiter("\\Z");
+
+         // For Resource Path
+         JSONArray a = (JSONArray) parser.parse(s.next());
+         // For Absolute path
+         //         JSONArray a = (JSONArray) parser.parse(scan.next());
 
          return a.toArray();
 
@@ -36,7 +64,7 @@ public class CalendarController {
       return null;
    }
 
-   static List<JSONObject> listEvents = new ArrayList<>();
+   static List<JSONObject> listEvents = new ArrayList<JSONObject>();
 
 
    @RequestMapping(value = "listevents", produces = "application/json")
